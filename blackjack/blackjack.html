@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .game{
+        width: 50%;
+        margin: auto;
+    }
+    .player{
+        width: 50%;
+        float: right;
+    }
+    .cpu{
+        width: 50%;
+        float: left;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="game">
+
+        <div class="game">
+            <h1>Blackjack</h1>
+ 
+            <div class="gameContianer">
+            <div id="player" class="player"><h4>Player</h4>
+                <div class="playerCard">
+                    <div class="playerPoints">
+                    </div>
+                </div>
+            </div>
+            <div id="cpu" class="cpu"><h4>Computer</h4>
+                <div class="cpuCard">
+                    <div class="cpuPoints">
+                    </div>
+                </div>
+            </div>
+            <div id="deck" class="deck">
+            </div>
+            </div>
+            <input type="button" class="btnStart" value="start"/>
+            <input type="button" class="btnHit" value="hit"/>
+            <input type="button" class="btnStay" value="stay"/>
+        </div>
+        <script src="blackjack.js" async defer></script>
+</body>
+
+</html>
